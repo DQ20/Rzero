@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    margin:20vh 40vw;
+    width: 20vw;
+    height: 60vh;
+    background-color: #4D3A59;
+    border-radius: 10px;
+}
+body{
+    background:linear-gradient(90deg,#BE98AA,#3E3F4C);
+}
+.top{
+    width: 100%;
+    height: 30%;
+    /* background-color: black; */
+
+}
+.top h2{
+    display: block;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    line-height: 140%;
+    font-size: 5em;
+
+}
+.Z{
+    width: 100%;
+    height: 70%;
+    /* background-color: aqua; */
+}
+form{
+    width: 100%;
+    height: 100%;
+    /* background-color: #BE98AA; */
+    position: relative;
+    border-radius: 0 0 10px 10px;
+}
+
+
+.i1{
+    position: relative;
+    top: 15%;
+    width: 100%;
+    height: 20%;
+    /* background-color: aquamarine; */
+    text-align: center;
+    font-size: larger;
+}
+.i2{
+    position: relative;
+    top: 20%;
+    width: 100%;
+    height: 20%;
+    /* background-color: aquamarine; */
+    text-align: center;
+    font-size: larger;
+}
+.i1 input{
+    border: 0;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid black;
+    font-size: larger;
+    width: 60%;
+}
+.i2 input{
+    border: 0;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid black;
+    font-size: larger;
+    width: 60%;
+}
+
+
+.D{
+    width: 100%;
+    height: 40%;
+    /* background-color: brown; */
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+}
+.ibutton{
+    position: relative;
+    top: 3%;
+    width: 40%;
+    height: 40%;
+    border: 1px solid #907AA8;
+    background-color: #907AA8;
+    border-radius: 10px;
+    font: 2em sans-serif;
+}
+.ibutton:hover{
+    width: 44%;
+    height: 44%;
+    border: 1px solid #907AA8;
+    background-color:#907AA8;
+    border-radius: 10px;
+    font: 2.2em sans-serif;
+}
+.ck{
+    position: relative;
+    top: 5%;
+}

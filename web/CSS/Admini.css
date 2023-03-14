@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+}
+body{
+    background-color: #F7E2E7;
+}
+.left{
+    position: fixed;
+    left: 0;
+    width:15%;
+    height: 100%;
+    background-color: #F04550;
+    border-radius: 0 5% 5% 0;
+}
+.con{
+    position: absolute;
+    left:15%;
+    width: 65%;
+    height: 100%;
+    /* background-color: pink; */
+}
+.conTop{
+    left: 15%;
+    height: 50px;
+    width: 100%;
+    /* background-color:green; */
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.right{
+    position: fixed;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #71BBEA;
+}
+.TB{
+    margin: 5px auto;
+    width: 80%;
+    border: 0;
+    border-collapse: collapse;
+}
+.header{
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    border-radius: 10%;
+}
+td{
+    text-align: center;
+
+    height: 50px;
+    left: 50px;
+}
+.S{
+    float: right;
+    margin-right: 12px;
+    margin-top: 1%;
+    height: 32px;
+    width:220px;
+}
+.F{
+    float: right;
+    margin-top: 1%;
+}
+.shop{
+    position: relative;
+    left: 10%;
+}
+.Rtop {
+    padding-top: 8%;
+    width: 100%;
+    height: 10%;
+    background-color: #F04550;
+    color: #000;
+    font-size: larger;
+    text-align: center;
+    line-height: 100%;
+}
+
+/* 左边图片超链接 */
+.left li{
+    width: 100%;
+    height: 10%;
+    margin-top:15%;
+    /* background-color: brown; */
+    text-align: center;
+}
+.left li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 80%;
+    /* background-color: aqua; */
+}
+.left li:nth-child(1){
+    width: 100%;
+    height: 10%;
+    margin-top:30%;
+    /* background-color: brown; */
+    text-align: center;
+}
+li a{
+    display: block;
+    width: 50%;
+    height: 60%;
+    /* background-color: #F7E2E7; */
+}
+.left li:nth-child(4){
+    position: absolute;
+    top :80%;
+    width: 100%;
+    height: 10%;
+    /* background-color: black; */
+    text-align: center;
+}
+.expr{
+    position: absolute;
+    top :80%;
+    width: 100%;
+    height: 10%;
+    /* background-color: black; */
+    text-align: center;
+}
